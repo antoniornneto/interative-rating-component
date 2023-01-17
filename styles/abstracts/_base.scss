@@ -1,0 +1,17 @@
+@import './variables';
+
+html,
+body {
+   font-family: $font;
+   background-color: $verydark-blue;
+   color: white;
+   font-size: 15px;
+   margin: 0;
+   padding: 0;
+}
+
+h1,
+p {
+   margin: 0;
+   padding: 0;
+}

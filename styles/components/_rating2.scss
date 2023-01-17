@@ -1,0 +1,59 @@
+@import '../abstracts/variables';
+
+.screen2 {
+   background-color: $bg-container;
+   display: flex;
+   flex-direction: column;
+   margin: 200px 1.5rem;
+   padding: 1.5rem;
+   border-radius: 10px;
+   text-align: center;
+
+   .container__screen2--img {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+   }
+
+   .container__selected {
+      display: flex;
+      justify-content: center;
+      background-color: $bg-rounded;
+      width: 200px;
+      border-radius: 50px;
+      margin: 2rem auto;
+
+      .container__selected--p {
+         height: 15px;
+         color: $orange;
+         padding: 5px;
+      }
+   }
+
+   .container__scree2--p {
+      width: 270px;
+      margin: 0 auto;
+   }
+
+   .screen2__title,
+   .screen2__p {
+      margin-bottom: .8rem;
+   }
+
+   .screen2__p {
+      color: $light-grey;
+      line-height: 1.2rem;
+      font-size: 12px;
+   }
+}
+
+.display-off {
+   display: none;
+}
+
+@media (min-width: 427px) {
+   .screen2 {
+      width: 332px;
+      margin: 200px auto;
+   }
+}
